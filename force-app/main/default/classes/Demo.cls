@@ -17,7 +17,7 @@ public with sharing class Demo {
         this.var1 = v;
     }
 
-    public void handleVars() {
+    public void createAccountsByVar1() {
         List<Account> accs = new List<Account>();
 
         for (Integer i = 0; i++; i < var1) {
