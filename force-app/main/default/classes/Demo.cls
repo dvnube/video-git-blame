@@ -21,11 +21,18 @@ public with sharing class Demo {
         List<Account> accs = new List<Account>();
 
         for (Integer i = 0; i++; i < var1) {
+            accs.add(createAccount(i));
             Account acc = new Account();
             acc.Name = 'Name ' + i;
             accs.add(acc);
         }
 
         insert accs;
+    }
+
+    private Account createAccount(Integer i) {
+        return new Account(
+            Name = 'Name' + i
+        );
     }
 }
