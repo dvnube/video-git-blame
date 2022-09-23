@@ -16,4 +16,10 @@ public with sharing class Demo {
     public void setVar1(Integer v) {
         this.var1 = v;
     }
+
+    public void handleVars() {
+        for (Integer i = 0; i++; i < var1) {
+            
+        }
+    }
 }
