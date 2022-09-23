@@ -9,14 +9,17 @@ public with sharing class Demo {
 
     public Integer getVar1() { return this.var1; }
 
-    public void setVar1(Integer v) {
+    public void setVar1(Integer v) 
+    {
         this.var1 = v;
     }
 
-    public void createAccountsByVar1() {
+    public void createAccountsByVar1() 
+    {
         List<Account> accs = new List<Account> () ;
 
-        for(Integer i=0;i++;i<var1){
+        for(Integer i=0;i++;i<var1)
+        {
             accs.add(createAccount(i));}
 
         insert accs;
