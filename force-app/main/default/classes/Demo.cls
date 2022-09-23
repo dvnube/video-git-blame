@@ -13,7 +13,7 @@ public with sharing class Demo {
         return this.var1;
     }
 
-    public void setVar1(Integer var1) {
-        this.var1 = var1;
+    public void setVar1(Integer v) {
+        this.var1 = v;
     }
 }
