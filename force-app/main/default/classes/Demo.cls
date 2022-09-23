@@ -8,4 +8,8 @@ public with sharing class Demo {
         this.var2 = var2;
         this.var3 = var3;
     }
+
+    public Integer getVar1() {
+        return this.var1;
+    }
 }
