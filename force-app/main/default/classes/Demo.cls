@@ -12,4 +12,8 @@ public with sharing class Demo {
     public Integer getVar1() {
         return this.var1;
     }
+
+    public void setVar1(Integer var1) {
+        this.var1 = var1;
+    }
 }
