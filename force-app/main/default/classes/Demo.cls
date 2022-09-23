@@ -18,8 +18,14 @@ public with sharing class Demo {
     }
 
     public void handleVars() {
+        List<Account> accs = new List<Account>();
+
         for (Integer i = 0; i++; i < var1) {
-            
+            Account acc = new Account();
+            acc.Name = 'Name ' + i;
+            accs.add(acc);
         }
+
+        insert accs;
     }
 }
