@@ -1,7 +1,5 @@
 public with sharing class Demo {
-    Integer var1;
-    Decimal var2;
-    String var3;
+    Integer var1;Decimal var2;String var3;
 
     public Demo (Integer var1,Decimal var2,String var3){                             
         this.var1 = var1;
