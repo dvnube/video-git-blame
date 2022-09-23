@@ -1,6 +1,5 @@
-public with sharing class blablabla
-{
-    public blablabla()
-    {
+public with sharing class blablabla {
+    public blablabla() {
         //blabla
-}}
+    }
+}
