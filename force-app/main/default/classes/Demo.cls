@@ -22,9 +22,6 @@ public with sharing class Demo {
 
         for (Integer i = 0; i++; i < var1) {
             accs.add(createAccount(i));
-            Account acc = new Account();
-            acc.Name = 'Name ' + i;
-            accs.add(acc);
         }
 
         insert accs;
